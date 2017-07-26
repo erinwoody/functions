@@ -116,6 +116,9 @@ console.log(greet("Erin"));
 // sentence: "quick brown fox jumps over the fence"
 // Then, write and example of using the function.
 
-function madlib(1, 2, 3, 4) {
-    
+function madlib(word1, word2, word3, word4) {
+    return 'I love ' + word1 + ' dogs.'
 }
+
+
+console.log(madlib("pink", "green", "blue", "red"));
